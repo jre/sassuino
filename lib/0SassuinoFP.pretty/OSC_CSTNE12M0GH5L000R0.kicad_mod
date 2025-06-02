@@ -28,7 +28,7 @@
     (solder_mask_margin 0.102) (tstamp 07399b9e-7b01-4cf9-816f-8b6f4615c07b))
   (pad "3" smd rect (at 1.2 0) (size 0.4 1.9) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.102) (tstamp bb8dc14d-34ed-4169-9126-ee497284939e))
-  (model "${KIPRJMOD}/../0Sassuino3D/CSTNE12M0GH5L000R0.step"
+  (model "${KIPRJMOD}/../lib/0Sassuino3D/CSTNE12M0GH5L000R0.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

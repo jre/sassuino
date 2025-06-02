@@ -1071,7 +1071,7 @@
       (net 2 "GND") (pinfunction "Shield") (pintype "passive") (tstamp 476aaa66-b591-4155-bd65-53d7152bcd43))
     (pad "5" thru_hole circle (at 4.86 7.25 270) (size 4 4) (drill 2.3) (layers *.Cu *.Mask)
       (net 2 "GND") (pinfunction "Shield") (pintype "passive") (tstamp a256c6cd-0aca-439d-83e5-2903861dca45))
-    (model "${KIPRJMOD}/../0Sassuino3D/lumberg_2411_02.stp"
+    (model "${KIPRJMOD}/../lib/0Sassuino3D/lumberg_2411_02.stp"
       (offset (xyz 15.24 -1.27 3.175))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
@@ -1683,7 +1683,7 @@
       (net 2 "GND") (pintype "power_in") (solder_mask_margin 0.102) (tstamp f7301bcc-d5cd-4121-8bbf-00fe426c5dff))
     (pad "3" smd rect (at 1.2 0 270) (size 0.4 1.9) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 50 "/XTL1") (pintype "output") (solder_mask_margin 0.102) (tstamp a377ede5-1dfa-42a3-88a5-cf532865d148))
-    (model "${KIPRJMOD}/../0Sassuino3D/CSTNE12M0GH5L000R0.step"
+    (model "${KIPRJMOD}/../lib/0Sassuino3D/CSTNE12M0GH5L000R0.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
