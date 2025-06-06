@@ -3206,158 +3206,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_Schottky_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at -1.27 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "D_Schottky_Small"
-				(at -7.112 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Schottky diode, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Schottky_Small_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0.762) (xy -1.27 1.016) (xy -0.762 1.016) (xy -0.762 -1.016) (xy -0.254 -1.016) (xy -0.254 -0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Schottky_Small_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.778)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.778)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:Polyfuse_Small"
 			(pin_numbers
 				(hide yes)
@@ -5473,6 +5321,12 @@
 		(uuid "c4ce6546-043b-45c2-b880-a019fd24a63b")
 	)
 	(junction
+		(at 228.6 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db3f4a75-aeba-424b-9675-19c22bbe015a")
+	)
+	(junction
 		(at 40.64 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5483,12 +5337,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eca33a52-0030-4081-8430-8464b722e931")
-	)
-	(junction
-		(at 172.72 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ee7a1774-b889-4375-87fc-f3531b6405ad")
 	)
 	(junction
 		(at 110.49 45.72)
@@ -6058,7 +5906,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 31.75) (xy 172.72 34.29)
+			(xy 172.72 35.56) (xy 172.72 38.1)
 		)
 		(stroke
 			(width 0)
@@ -6348,16 +6196,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 25.4) (xy 172.72 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7bc42836-b1f9-4b2c-addd-77bfcb5b21f5")
-	)
-	(wire
-		(pts
 			(xy 58.42 106.68) (xy 60.96 106.68)
 		)
 		(stroke
@@ -6495,16 +6333,6 @@
 			(type default)
 		)
 		(uuid "920278ec-9ecb-49d5-8f10-1f8a8965dcfd")
-	)
-	(wire
-		(pts
-			(xy 172.72 34.29) (xy 172.72 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "922ec487-e88e-4ab5-876b-c58eed59010d")
 	)
 	(wire
 		(pts
@@ -6678,7 +6506,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 44.45) (xy 228.6 64.77)
+			(xy 228.6 44.45) (xy 228.6 50.8)
 		)
 		(stroke
 			(width 0)
@@ -7115,6 +6943,16 @@
 			(type default)
 		)
 		(uuid "f5c7529f-b60f-4eef-8e24-242d436135e1")
+	)
+	(wire
+		(pts
+			(xy 228.6 50.8) (xy 228.6 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5ec2c7c-f60f-4afe-b56e-fed70c8dfebe")
 	)
 	(wire
 		(pts
@@ -7826,16 +7664,6 @@
 		)
 		(uuid "e28e8812-f315-4431-96ed-a5f3596bd7b0")
 	)
-	(label "VUSB"
-		(at 172.72 46.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e962d60c-1f74-4b93-93b3-ab13c3064c66")
-	)
 	(label "PD6"
 		(at 132.08 172.72 180)
 		(effects
@@ -8447,6 +8275,72 @@
 			(project ""
 				(path "/93924f32-2dd0-417f-984a-e4a0b078075b"
 					(reference "#FLG0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 228.6 50.8 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "23bec94a-6d36-4f7f-9232-d0abd0538a5e")
+		(property "Reference" "#FLG01"
+			(at 230.505 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 232.41 50.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 228.6 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "429c7b79-d2f8-4398-8af1-d44b40f94aec")
+		)
+		(instances
+			(project "sassuino-uno-dip"
+				(path "/93924f32-2dd0-417f-984a-e4a0b078075b"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -9448,73 +9342,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 172.72 34.29 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5363497a-4179-4df5-acfd-489da65e4609")
-		(property "Reference" "#FLG0101"
-			(at 174.625 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 176.53 34.2899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 172.72 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 172.72 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2a4c731f-669e-4aa5-8d60-478925018358")
-		)
-		(instances
-			(project ""
-				(path "/93924f32-2dd0-417f-984a-e4a0b078075b"
-					(reference "#FLG0101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 234.95 146.05 0)
 		(unit 1)
@@ -9886,76 +9713,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky_Small")
-		(at 172.72 29.21 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6d604bde-03b8-4028-b9aa-4598f9e73cdb")
-		(property "Reference" "D1"
-			(at 176.53 27.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "DFLS130L-7"
-			(at 186.69 30.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_PowerDI-123"
-			(at 172.72 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 172.72 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode, small symbol"
-			(at 172.72 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e919e716-5475-4f3e-a30d-f04fb5ec536f")
-		)
-		(pin "2"
-			(uuid "1f9814dd-d09a-4af9-8c3d-46fd8562e2eb")
-		)
-		(instances
-			(project ""
-				(path "/93924f32-2dd0-417f-984a-e4a0b078075b"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 261.62 71.12 0)
 		(unit 1)
@@ -10092,7 +9849,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 172.72 25.4 0)
+		(at 172.72 35.56 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10101,7 +9858,7 @@
 		(dnp no)
 		(uuid "7a23e026-fba6-47ce-a23b-fd5c213038c4")
 		(property "Reference" "#PWR02"
-			(at 172.72 29.21 0)
+			(at 172.72 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10110,7 +9867,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 176.53 22.86 0)
+			(at 176.53 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10118,7 +9875,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 25.4 0)
+			(at 172.72 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10127,7 +9884,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 25.4 0)
+			(at 172.72 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10136,7 +9893,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 172.72 25.4 0)
+			(at 172.72 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
