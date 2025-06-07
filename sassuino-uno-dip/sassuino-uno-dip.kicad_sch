@@ -8860,7 +8860,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
+		(property "Footprint" "0SassuinoFP:PinSocket_1x04_P2.54mm_Vertical_LowProfile"
 			(at 243.84 143.51 0)
 			(effects
 				(font
@@ -11261,7 +11261,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
+		(property "Footprint" "0SassuinoFP:PinSocket_1x04_P2.54mm_Vertical_LowProfile"
 			(at 223.52 143.51 0)
 			(effects
 				(font
@@ -12402,7 +12402,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
+		(property "Footprint" "0SassuinoFP:PinSocket_1x04_P2.54mm_Vertical_LowProfile"
 			(at 185.42 143.51 0)
 			(effects
 				(font
