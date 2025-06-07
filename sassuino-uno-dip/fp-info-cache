@@ -1,4 +1,11 @@
-25615266890891406
+25618765410704730
+0SassuinoFP
+DIP-28_W7.62mm_Socket_LongPads
+28-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), Socket, LongPads
+THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket LongPads
+0
+28
+28
 0SassuinoFP
 OSC_CSTNE12M0GH5L000R0
 
@@ -6,6 +13,13 @@ OSC_CSTNE12M0GH5L000R0
 0
 3
 3
+0SassuinoFP
+OST_ED281DT
+
+
+0
+28
+28
 0SassuinoFP
 PinSocket_1x04_P2.54mm_Vertical_LowProfile
 Through hole straight socket strip, 1x04, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
