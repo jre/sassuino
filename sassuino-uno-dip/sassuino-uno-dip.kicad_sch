@@ -6206,6 +6206,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 91.44) (xy 80.01 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d68d8d1-6d91-4209-978a-85e04668915c")
+	)
+	(wire
+		(pts
 			(xy 132.08 153.67) (xy 138.43 153.67)
 		)
 		(stroke
@@ -6233,6 +6243,16 @@
 			(type default)
 		)
 		(uuid "85100f98-6dc8-482e-955d-4e68a49fbf23")
+	)
+	(wire
+		(pts
+			(xy 77.47 93.98) (xy 80.01 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8548502b-8121-47db-9ae1-6b68eb8f0a8b")
 	)
 	(wire
 		(pts
@@ -6306,7 +6326,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 91.44) (xy 60.96 91.44)
+			(xy 58.42 91.44) (xy 72.39 91.44)
 		)
 		(stroke
 			(width 0)
@@ -6796,7 +6816,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 93.98) (xy 60.96 93.98)
+			(xy 58.42 93.98) (xy 72.39 93.98)
 		)
 		(stroke
 			(width 0)
@@ -7374,7 +7394,17 @@
 		)
 		(uuid "75546c81-becd-4c52-96ba-41a93e387436")
 	)
-	(label "PD1{slash}TXD"
+	(label "U_RX"
+		(at 80.01 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7caf8d0d-195c-49e6-b486-60f1352909d5")
+	)
+	(label "U_RX"
 		(at 146.05 55.88 180)
 		(effects
 			(font
@@ -7393,6 +7423,16 @@
 			(justify right bottom)
 		)
 		(uuid "84b7818d-f8b4-49ee-8810-8ad534c8834c")
+	)
+	(label "U_TX"
+		(at 80.01 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c272796-8673-4a16-a161-c85de0b79b58")
 	)
 	(label "PC4{slash}SDA"
 		(at 60.96 81.28 0)
@@ -7624,7 +7664,7 @@
 		)
 		(uuid "d76b9c07-28b8-4518-98e2-9152093e9449")
 	)
-	(label "PD0{slash}RXD"
+	(label "U_TX"
 		(at 146.05 58.42 180)
 		(effects
 			(font
@@ -8341,6 +8381,74 @@
 			(project "sassuino-uno-dip"
 				(path "/93924f32-2dd0-417f-984a-e4a0b078075b"
 					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 74.93 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "276ecd22-cae7-40bd-875c-fbc9bfecff88")
+		(property "Reference" "R6"
+			(at 74.93 86.36 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 74.93 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 74.93 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f1166072-dfca-48ed-9bd9-c8d986251f08")
+		)
+		(pin "1"
+			(uuid "efc5aedc-bb43-4652-bd37-0b2785d51d51")
+		)
+		(instances
+			(project ""
+				(path "/93924f32-2dd0-417f-984a-e4a0b078075b"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -11160,6 +11268,73 @@
 			(project ""
 				(path "/93924f32-2dd0-417f-984a-e4a0b078075b"
 					(reference "#PWR0110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 74.93 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b02f9342-e75d-48ec-87f6-7480e73ffce6")
+		(property "Reference" "R7"
+			(at 74.93 96.266 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 74.93 98.806 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7ce10725-ca81-4fd9-990a-b2b77a28f461")
+		)
+		(pin "1"
+			(uuid "b5d3e462-a559-4754-bbba-2af257e40d8c")
+		)
+		(instances
+			(project ""
+				(path "/93924f32-2dd0-417f-984a-e4a0b078075b"
+					(reference "R7")
 					(unit 1)
 				)
 			)
