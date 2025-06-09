@@ -73,7 +73,7 @@
           ""
         ],
         [
-          "unconnected_items|71382706|142008444|c72c194d-cf09-401e-9154-b32c71c1e062|c1b7563c-10fa-46e1-a33a-d80bfc7ff67a",
+          "unconnected_items|71382706|142008444|09c00e35-b5f3-4820-9d05-4cdf712b3808|c1b7563c-10fa-46e1-a33a-d80bfc7ff67a",
           ""
         ]
       ],
@@ -573,7 +573,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "fab/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
